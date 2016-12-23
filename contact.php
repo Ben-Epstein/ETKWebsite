@@ -1,12 +1,12 @@
 <?php
 
 // configure
-$name = $_POST();     //name 
-$sentFrom = $_POST(); //email
+$name = $_POST['name'];     //name 
+$sentFrom = $_POST['email']; //email
 $sendTo = 'Engineeringtestkitchen@gmail.com';
-$subject = $_POST();  //subject
-$message = $_POST();  //message
-$fields = array('name' => $name, 'email' => $sentFrom, 'subject' => $subject 'message' => $message ); // array variable name => Text to appear in email
+$subject = $_POST['subject'];  //subject
+$message = $_POST['message'];  //message
+$fields = array('name' => $name, 'email' => $sentFrom, 'subject' => $subject, 'message' => $message ); 
 $okMessage = 'Contact form successfully submitted. Thank you, we will get back to you soon!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 

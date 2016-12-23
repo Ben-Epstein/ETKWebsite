@@ -12,7 +12,7 @@ $(function () {
             $.ajax({
                 type: "POST",
                 url: url,
-                data: {name: sendname, email: sendemail, subject: sendsubject, sendmessage: message},
+                data: {name: sendname, email: sendemail, subject: sendsubject, message: sendmessage},
                 success: function (data)
                 {
                     var messageAlert = 'alert-' + data.type;
