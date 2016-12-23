@@ -5,11 +5,14 @@ $(function () {
     $('#contact-form').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
             var url = "contact.php";
-
+            var sendname = $("#form_name").val();
+            var sendemail = $("#form_email").val();
+            var sendsubject = $("$form_subject").val();
+            var sendmessage = $("#form_message").val();
             $.ajax({
                 type: "POST",
                 url: url,
-                data: $(this).serialize(),
+                data: {name: sendname, email: sendemail, subject: sendsubject, sendmessage: message},
                 success: function (data)
                 {
                     var messageAlert = 'alert-' + data.type;
