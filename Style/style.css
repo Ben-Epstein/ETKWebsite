@@ -1,5 +1,9 @@
 body{
-	background-image: url('./bground.png');
+	
+	background-color: rgb(25,30,40);
+	font-family: 'Lato', sans-serif;
+	color: white;
+
 }
 
 .active {
@@ -12,12 +16,81 @@ body{
     transform: translate3d(0, 0, 0);
 }
 #nav{
-	width: 100%;
-	background-color: black;
+	left: 34vw;
+	text-align: center;
 	position: fixed;
-	
+	height: 5%;
+	font-size: 20px;
+	text-decoration: none;
+
 }
-#nav a{
-	margin-right: 175px;
-	margin-left: 50px;
+#main{
+	height: 100vh;
+	/*background-image: url("background.png");*/
+	background-repeat: no-repeat;
 }
+#mainchild{
+	position: fixed;
+	top: 40%;
+	left: 25%;
+}
+#mainchild h1{
+	font-size: 70px;
+}
+#mainchild h2{
+	font-size: 50px;
+}
+#about{
+	display: table-cell;
+	height: 50vh;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgba(21,25,43,.9);
+}
+#teamMembers{
+	height: 50vh;
+	background-color: rgba(21,25,43,.9);
+}
+#teamchild{
+	position: relative;
+	top: 30%;
+	left: 35%;
+}
+#services{
+	height: 100vh;
+	background-color: black;
+}
+#contact{
+	height: 100vh;
+}
+.subNav a{
+	color: #9fa3a8;
+}
+.subNav{
+	margin-left: 2vw;
+	margin-right: 2vw;
+
+}
+
+.subNav a:hover{
+	text-decoration: none;
+	color: white;
+}
+#main{
+	text-align: center;
+	font-size: 50px;
+}
+h1{
+    margin-bottom: 40px;
+}
+label {
+    color: #333;
+}
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
