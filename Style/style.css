@@ -30,9 +30,11 @@ body{
 	background-repeat: no-repeat;
 }
 #mainchild{
+	width: 100%;
+	text-align: center;
 	position: fixed;
 	top: 40%;
-	left: 25%;
+	
 }
 #mainchild h1{
 	font-size: 70px;
@@ -41,21 +43,68 @@ body{
 	font-size: 50px;
 }
 #about{
-	display: table-cell;
 	height: 50vh;
 	width: 100%;
 	text-align: center;
-	vertical-align: middle;
+	/*display: table-cell;
+	vertical-align: middle;*/
 	background-color: rgba(21,25,43,.9);
 }
+#aboutHeader h2{
+	font-size: 50px !important;
+	padding-top: 4vh;
+	vertical-align: middle;
+
+}
+#aboutInfo1{
+	display: table-cell;
+	padding-top: 3vh;
+	font-size: 20px;
+	vertical-align: middle;
+	text-align: left;
+	width: 50%;
+	padding-left: 3vw;
+	padding-right: 3vw;
+	
+}
+#whatHeader h3{
+	font-size: 30px !important;
+	text-align: center;
+}
+#aboutInfo2{
+	display: table-cell;
+	width: 50%;
+	font-size: 20px;
+	vertical-align: middle;
+	text-align: left;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	padding-top: 3vh;
+	padding-left: 3vw;
+	padding-right: 3vw;
+}
+#missionHeader h3{
+	font-size: 30px !important;
+	text-align: center;
+}
+#aboutInfo3{
+	padding-top: 3vh;
+	font-size: 20px;
+}
+
 #teamMembers{
 	height: 50vh;
 	background-color: rgba(21,25,43,.9);
 }
+
 #teamchild{
-	position: relative;
-	top: 30%;
-	left: 35%;
+	
+}
+#execHeader h2{
+	text-align: center;
+	font-size: 50px;
+	vertical-align: top;
+	padding-top: 4vh;
 }
 #services{
 	height: 100vh;

@@ -41,21 +41,43 @@
 	<br><br>
 	<div id='container'>
 		<div id='main'>
-			<div id='mainchild'><h1 id='title'> Engineering Test Kitchen </h1>
-				<h2 id='subtitle'> Hands on engineering experience for undergrads </h2>
-			</div>
+			<center>
+				<div id='mainchild'><h1 id='title'> Engineering Test Kitchen </h1>
+					<h2 id='subtitle'> Hands on engineering experience for undergrads </h2>
+				</div>
+			</center>
 		</div>
 
 		<div id='about' class='scrollto'>
-			<h2>About</h2>
-			<p>Engineering Test Kitchen is a non-profit consulting firm founded and operated by Washington University in St. Louis undergraduate, multi-disciplinary, engineering students. Our mission is to connect engineering undergraduates with real projects where they can learn, make meaningful contributions, and develop relationships with potential future employers.
-			</p>
-			<p>We provide a team of skilled engineering undergrads under the guidance of an experienced mentor to take on your company’s projects</p>
+			<div id='aboutHeader'>
+				<h2>About Us</h2>
+			</div>
+			<div id='aboutInfo1'>
+				<div id='whatHeader'><i><h3>What is ETK?</h3></i></div>
+				<div id='whatInfo'>
+					<p>	- Engineering Test Kitchen is a non-profit consulting firm founded and operated by Washington University in St. Louis undergraduate, multidisciplinary, engineering students.
+					</p>
+				</div> 
+			</div>
+			<div id='aboutInfo2'>
+				<div id='missionHeader'><i><h3>Our Mission</h3></i></div>
+				<div id='missionInfo'>
+					<p>
+						- Our mission is to connect engineering undergraduates with real projects where they can learn, make meaningful contributions, and develop relationships with potential future employers.
+					</p>
+				</div>
+			</div>
+			<div id='aboutInfo3'>
+				<p>We provide a team of skilled engineering undergrads under the guidance of an experienced mentor to take on your company’s projects</p>
+			</div>
+
 
 		</div>
 		<div id='teamMembers' class='scrollto'>
 			<div id='teamchild'>
-				<h3>Executive Team</h3>
+				<div id='execHeader'>
+				<h2>Executive Team</h2>
+				</div>
 				<div id='exec'>
 					<div class='execMembers' id='allen'>
 						<span class='execName'>Allen Hao</span>
@@ -81,14 +103,31 @@
 						<span class='execEmail'>Ben.epstein@wustl.edu</span>
 						<span class='execPhone'>(516)459-8996</span>
 					</div>
-
+					<div class='execMembers' id='andrew'>
+						<span class='execName'>Andrew McNeel</span>
+						<span class='execPosition'>Treasurer</span>
+						<span class='execEmail'>amcneel@wustl.edu</span>
+						<span class='execPhone'>(608)333-7981</span>
+					</div>
+					<div class='execMembers' id='jacob'>
+						<span class='execName'>Jacob Schein</span>
+						<span class='execPosition'>???</span>
+						<span class='execEmail'>???@wustl.edu</span>
+						<span class='execPhone'>(???)664-9098</span>
+					</div>
+					<div class='execMembers' id='noah'>
+						<span class='execName'>Noah Adelstein</span>
+						<span class='execPosition'>Business Guy</span>
+						<span class='execEmail'>???@wustl.edu</span>
+						<span class='execPhone'>(???)664-9098</span>
+					</div>
 				</div>
 				<div id='nonExec'>
 
 				</div>
 			</div>
 		</div>
-		
+
 
 		<div id='services' class='scrollto'>
 			<div id="serviceschild">
@@ -154,7 +193,7 @@
 			<div class="row">
 
 				<div class="col-lg-8 col-lg-offset-2">
-					
+
 					<form id="contact-form" method="post" action="contact.php" role="form">
 
 						<div class="messages"></div>
@@ -233,7 +272,7 @@
 			$(function () {
 				$('.header').stickyNavbar();
 			});
-			
+
 			$(function () {
 				$('.header').stickyNavbar({
 			    activeClass: "active",          // Class to be added to highlight nav elements
@@ -254,7 +293,7 @@
 			    unstickyModeClass: "unsticky"   // Class that will be applied to 'this' in non-sticky mode
 			});
 			});
-			
+
 		</script>
 	</body>
 	</html>
