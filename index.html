@@ -13,7 +13,7 @@
 <header>
     <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet" type="text/css">
 
-    <nav id="nav">
+    <nav id="nav" class="unselectable">
         <ul class="nav navbar-nav">
             <li>
                 <div class='subNav'>
@@ -41,6 +41,7 @@
 <br><br>
 <div id='container'>
     <div id='main'>
+        <center><img src="Style/background2.png" alt="Logo"></center>
         <center>
             <div id='mainchild'><h1 id='title'> Engineering Test Kitchen </h1>
                 <h2 id='subtitle'> Hands on engineering experience for undergrads </h2>
@@ -317,6 +318,16 @@
             $('#mainchild').css({
                 'opacity': ((height - 1.5 * scrollTop) / height)
             });
+
+        });
+
+        $(window).scroll(function () {
+            var scrollTop = $(window).scrollTop();
+            var height = $(window).height();
+            $('#main img').css({
+                'opacity': ((height - 1.5 * scrollTop) / height)
+            });
+            
 
         });
 
