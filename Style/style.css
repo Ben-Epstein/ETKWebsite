@@ -1,10 +1,12 @@
 body{
 	background-color: rgb(25,30,40);
+	width: 100%;
+	max-width: 100vw;
 	/*font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;*/
 	font-family: "proxima-nova", "Proxima Nova", "Helvetica Neue", sans-serif;
 	color: white;
-
 }
+
 .unselectable{
 	-moz-user-select: -moz-none;
     -khtml-user-select: none;
@@ -12,6 +14,9 @@ body{
     -o-user-select: none;
     user-select: none;
     cursor: none;
+
+#container{
+	width: 100%;
 }
 .active {
     color: #fff !important;
@@ -23,7 +28,8 @@ body{
     transform: translate3d(0, 0, 0);
 }
 #nav{
-	left: 34vw;
+	left: 31%;
+	align-content: center;
 	text-align: center;
 	position: fixed;
 	height: 5%;
@@ -40,10 +46,12 @@ body{
 }
 #main{
 	height: 100vh;
-	
+
+	width: 100%;
+
 }
 #mainchild{
-	width: 100%;
+	width: 95%;
 	text-align: center;
 	position: fixed;
 	top: 40%;
@@ -67,6 +75,13 @@ body{
 	padding-top: 2vh;
 	vertical-align: middle;
 
+}
+.col-md-12{
+	width: 95% !important;
+}
+.row{
+	width: 95% !important;
+	margin: 0 auto;
 }
 #aboutInfo1{
 	display: table-cell;
@@ -106,6 +121,7 @@ body{
 
 #teamMembers{
 	z-index: 20;
+	width: 100%;
 	color: #444444;
 	height: 150vh;
 	background-color: rgba(255, 255, 255,.9);
@@ -129,17 +145,24 @@ body{
 }
 .execEmail{
 	display: inline-block;
-	font-size: 18px;
+	font-size: 16px !important;
 }
 .execPosition{
 	display: inline-block;
+	font-size: 16px !important;
+}
+.execEmail{
+	display: inline-block;
+	font-size: 16px !important;
+}
+.execPhone{
+	display: inline-block;
+	font-size: 16px !important;
 }
 .execPosition{
-	font-size: 15px;
+	font-size: 16px;
 	display: inline-block !important;
 	text-align: left !important;
-
-
 }
 .execMembers{
 	padding-top: 3vh;
@@ -166,6 +189,7 @@ body{
 
 #services{
 	height: 100%;
+	width: 100%;
 	background-color: black;
 	margin-bottom: 15vh;
 }
@@ -204,7 +228,6 @@ body{
 
 .blog-item-sub {
 	color: inherit;
-	cursor: pointer;
 	width: 60vw;
 	margin: 0 auto;
 	display: -webkit-box;
@@ -254,10 +277,9 @@ img {
 	width: 300px;
 }
 
-
-
 #contact{
 	height: 100vh;
+	width: 100%;
 	margin-top: 15vh;
 	position: relative;
 }
