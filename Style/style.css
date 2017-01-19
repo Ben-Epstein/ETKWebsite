@@ -34,7 +34,6 @@ body{
 	text-align: center;
 	position: fixed;
 	top: 40%;
-	
 }
 #mainchild h1{
 	font-size: 70px;
@@ -152,7 +151,7 @@ body{
 }
 
 #services{
-	height: 225vh;
+	height: 100%;
 	background-color: black;
 	margin-bottom: 15vh;
 }
@@ -161,6 +160,11 @@ body{
 }
 #past-work{
 	padding-bottom: 15vh;
+}
+#past-work h3{
+	width: 50vw;
+	margin: 0 auto;
+	text-align: center; /* or left?  */
 }
 #servicesHeader h3{
 	margin-bottom: 10vh;
@@ -174,24 +178,6 @@ body{
 	padding-bottom: 0 !important;
 	margin-bottom: 0 !important;
 }
-/*.workImages{*/
-	/*vertical-align: top;*/
-	/*display: inline-block;*/
-	/*width: 250px;*/
-	/*margin-right: 25vw;*/
-	/*font-size: 14px;*/
-	/*margin-bottom: 10vh;*/
-
-/*}*/
-/*.workExerpt{*/
-	/*display: inline-block;*/
-	/*height: auto;*/
-	/*max-width: 480px;*/
-	/*font-size: 1.1em;*/
-	/*line-height: 1.6;*/
-	/*margin-top: 10vh;*/
-	/*margin-bottom: 10vh;*/
-/*}*/
 
 
 .blog-item {
@@ -204,16 +190,19 @@ body{
 .blog-item-sub {
 	color: inherit;
 	cursor: pointer;
+	width: 60vw;
+	margin: 0 auto;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
 	padding: 3.5em 2em 3.7em;
-	text-decoration: none;
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
-	justify-content: center
+	justify-content: center;
+	border-bottom-style: dotted;
+	border-bottom-color: white;
 }
 
 
@@ -256,6 +245,11 @@ img {
 	height: 100vh;
 	margin-top: 15vh;
 	position: relative;
+}
+#contacttext{
+	width: 40vw;
+	margin: 0 auto;
+	text-align: center;
 }
 .subNav a{
 	color: #9fa3a8;
