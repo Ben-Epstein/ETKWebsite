@@ -5,6 +5,7 @@ body{
 	/*font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;*/
 	/*font-family: "proxima-nova", "Proxima Nova", "Helvetica Neue", sans-serif;*/
 	color: white;
+	overflow-x: hidden;
 
 }
 
@@ -126,7 +127,7 @@ body{
 	z-index: 20;
 	width: 100%;
 	color: rgb(21,25,43);
-	height: 185vh;
+	height: 200vh;
 	background-color: rgba(255, 255, 255,.9);
 }
 
