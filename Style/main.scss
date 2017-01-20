@@ -1,5 +1,8 @@
 $primary-font: 'Montserrat';
 $secondary-font: 'Inconsolata';
+$break-small: 442px;
+$break-medium: 768px;
+
 
 @mixin anim {
     -webkit-transition: all 0.2s ease;
@@ -25,7 +28,9 @@ $secondary-font: 'Inconsolata';
         transform: translate3d(0,0,0);
     }
 }
-
+html{
+  overflow-x:hidden;
+}
 body{
   font-family: $primary-font;
 }
@@ -167,6 +172,13 @@ body{
   .execMembers{
     width:450px;
     // display:inline-block;
+  }
+
+}
+#teamMembers{
+
+  @media screen and (max-width:$break-small){
+    height: 100vh !important;
   }
 
 }
