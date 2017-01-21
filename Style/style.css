@@ -197,10 +197,10 @@ body{
 	background-color: rgba(21,25,43,.9);
 	/*margin-bottom: 15vh;*/
 }
-#past-work{
+#work{
 	padding-bottom: 15vh;
 }
-#past-work h3{
+#projectinfo{
 	width: 75vw;
 	margin: 0 auto;
 	text-align: center; /* or left?  */
