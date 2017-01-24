@@ -59,6 +59,12 @@ body {
     .about-info:last-child p {
       font-family: 'Helvetica'; }
 
+.blog-list h3 {
+  margin-left: 12.5vw;
+  margin-top: 60px;
+  font-weight: bold;
+  font-size: 30px; }
+
 .blog-item-info img {
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
@@ -66,7 +72,7 @@ body {
   position: relative;
   margin-bottom: 20px; }
 .blog-item-info img:hover {
-  box-shadow: 5px 5px 0 #fafafa; }
+  box-shadow: 5px 5px 0 #9E9E9E; }
 
 .header-section {
   height: 40vh;
