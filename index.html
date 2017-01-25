@@ -24,7 +24,7 @@
 
                 <a href="#/teamMembers" id="team-nav">Our Team</a>
 
-                <a href="#services" id="services-nav">Projects</a>
+                <a href="#projects" id="projects-nav">Projects</a>
 
                 <a href="#contact" id="contact-nav">Contact</a>
 
@@ -167,7 +167,7 @@
         </div>
 
 
-        <div id='services'>
+        <div id='projects'>
             <div id="serviceschild">
                 <div id='servicesHeader'>
                     <h3>Projects</h3>
@@ -358,7 +358,7 @@
     <script src="//cdn.jsdelivr.net/stickynavbar.js/1.3.2/jquery.stickyNavbar.min.js"></script>
     <script type="text/javascript">
         var teamHeight = $('#teamMembers').offset().top;
-        var projectsHeight = $("#services").offset().top;
+        var projectsHeight = $("#projects").offset().top;
         var aboutHeight = $('#about').offset().top;
         var contactHeight = $("#contact").offset().top;
 
@@ -378,9 +378,9 @@
                 scrollTop: $("#teamMembers").offset().top
             }, 1000);
         });
-        $("#services-nav").click(function() {
+        $("#projects-nav").click(function() {
             $('html, body').animate({
-                scrollTop: $("#services").offset().top
+                scrollTop: $("#projects").offset().top
             }, 1000);
         });
         $("#contact-nav").click(function() {

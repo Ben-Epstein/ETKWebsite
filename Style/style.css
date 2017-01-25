@@ -192,7 +192,7 @@ body{
 	margin-left: 5vw;
 }
 
-#services{
+#projects{
 	height: 100%;
 	width: 100%;
 	background-color: rgba(21,25,43,.9);
@@ -328,4 +328,7 @@ label {
 
 .fontchange{
 	font-family: Verdana, sans-serif !important;
+}
+#apply-button{
+	z-index: 500;
 }
