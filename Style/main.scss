@@ -191,3 +191,42 @@ body{
   }
 
 }
+
+#apply-button{
+  @include anim;
+  border-radius:40px;
+  background-color:#FFF;
+  color:black;
+  margin-top:20px;
+  margin-left:125px;
+  width:161px;
+  height:50px;
+  letter-spacing:1px;
+  border:2px;
+  font-size:20px;
+  text-align:center;
+  // padding: 10px 20px;
+
+  &:hover{
+    background-color:black;
+    color:#FFF;
+  }
+  @media only screen and (max-device-width: 480px){
+    margin-left:32.67%;
+
+  }
+
+}
+
+#apply-nav{
+  @include anim;
+  border-radius: 300px;
+  border: 2px solid #fff;
+  padding: .5em 1em;
+
+  &:hover{
+    background-color:#fafafa;
+    color: rgb(25,30,40);
+  }
+
+}
